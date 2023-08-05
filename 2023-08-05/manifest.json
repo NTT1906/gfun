@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BEAM",
+    "description": "BEAM",
+    "uuid": "7ad2175c-f19c-dcb2-b953-03cfe578186d",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 19, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "674d81cc-5d05-ca69-dc85-59f6504c3df1",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.19.0",
+  "render_controllers": {
+    "controller.render.beam": {
+      "geometry": "geometry.default",
+      "materials": [ { "*": "Array.flags[query.variant / 17]" }],
+      "arrays": {
+	"materials": {
+          "Array.flags": [
+            "Material.additive",
+            "Material.transparent",
+            "Material.opaque"
+	  ]
+	},
+        "textures": {
+          "Array.colours": [
+            "Texture.black",
+            "Texture.blue",
+            "Texture.brown",
+            "Texture.cyan",
+            "Texture.gray",
+            "Texture.green",
+            "Texture.light_blue",
+            "Texture.lime",
+            "Texture.magenta",
+            "Texture.orange",
+            "Texture.pink",
+            "Texture.purple",
+            "Texture.red",
+            "Texture.light_gray",
+            "Texture.white",
+            "Texture.yellow",
+	    "Texture.invisible"
+          ]
+        }
+      },
+      "textures": [ "Array.colours[variable.varo > 0 ? variable.varo : query.variant]" ],
+      "filter_lighting": true,
+      "light_color_multiplier": 1.2,
+      "ignore_lighting": true
+    }
+  }
+}
