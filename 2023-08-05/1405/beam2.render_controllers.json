@@ -1,0 +1,42 @@
+{
+  "format_version": "1.19.0",
+  "render_controllers": {
+    "controller.render.beam2": {
+      "geometry": "geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "arrays": {
+        "textures": {
+          "Array.colours": [
+            "Texture.black",
+            "Texture.blue",
+            "Texture.brown",
+            "Texture.cyan",
+            "Texture.gray",
+            "Texture.green",
+            "Texture.light_blue",
+            "Texture.lime",
+            "Texture.magenta",
+            "Texture.orange",
+            "Texture.pink",
+            "Texture.purple",
+            "Texture.red",
+            "Texture.light_gray",
+            "Texture.white",
+            "Texture.yellow"
+          ]
+        }
+      },
+      "textures": [ "Array.colours[math.random_integer(0, 17)]" ],
+      "filter_lighting": true,
+      "ignore_lighting": true,
+      "overlay_color": {
+	"r": "math.abs(math.sin(q.life_time))",
+	"g": "math.abs(math.sin(q.life_time))",
+	"b": "math.abs(math.sin(q.life_time))",
+	"a": "math.abs(math.cos(q.life_time))"
+      }
+    }
+  }
+}
