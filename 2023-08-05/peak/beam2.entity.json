@@ -1,0 +1,43 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "test:beam2",
+      "materials": {
+        "default": "entity_change_color",
+        "invisible": "spider_invisible"
+      },
+      "textures": {
+        "black": "textures/beam_black",
+        "blue": "textures/beam_blue",
+        "brown": "textures/beam_brown",
+        "cyan": "textures/beam_cyan",
+        "gray": "textures/beam_gray",
+        "green": "textures/beam_green",
+        "light_blue": "textures/beam_light_blue",
+        "lime": "textures/beam_lime",
+        "magenta": "textures/beam_magenta",
+        "orange": "textures/beam_orange",
+        "pink": "textures/beam_pink",
+        "purple": "textures/beam_purple",
+        "red": "textures/beam_red",
+        "light_gray": "textures/beam_light_gray",
+        "white": "textures/beam_white",
+        "yellow": "textures/beam_yellow",
+	"invisible": "textures/cape_invisible"
+      },
+      "geometry": {
+        "default": "geometry.beam"
+      },
+      "scripts": {
+        "animate": [ "spin" ]
+      },
+      "animations": {
+        "spin": "animation.beam.spin"
+      },
+      "render_controllers": [
+        "controller.render.beam2"
+      ]
+    }
+  }
+}
